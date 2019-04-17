@@ -1,0 +1,4 @@
+#Sun Feb 24 01:51:42 PST 2019
+base.0=/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v13_cb24e49a65ee7f51765b67ad9929841e353bf548
+renamed.0=classes.dex
+file.0=/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v13_cb24e49a65ee7f51765b67ad9929841e353bf548/classes.dex

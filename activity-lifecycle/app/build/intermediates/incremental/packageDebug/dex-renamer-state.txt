@@ -1,0 +1,7 @@
+#Sun Feb 24 01:51:43 PST 2019
+base.0=/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_53f32ff9fc0d8ec9520cf336d648e2dcd504f744
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_988e4c0cc89ea2d9c8602fe1d274c5c98094ba6d/classes.dex
+base.1=/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_988e4c0cc89ea2d9c8602fe1d274c5c98094ba6d
+file.0=/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_53f32ff9fc0d8ec9520cf336d648e2dcd504f744/classes.dex

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E3F2FD"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:id="@+id/website"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:hint="Enter web address"
+        android:textColorHint="@android:color/tertiary_text_dark"
+        android:backgroundTint="@android:color/black"
+        android:gravity="center_horizontal"
+        android:ems="19"/>
+
+    <Button
+        android:id="@+id/runWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Launch" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <EditText
+        android:id="@+id/phNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone number"
+        android:textColorHint="@android:color/tertiary_text_dark"
+        android:backgroundTint="@android:color/black"
+        android:gravity="center_horizontal"
+        android:ems="19" />
+    <Button
+        android:id="@+id/dialPhNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:text="Ring" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="122dp" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Close App" />
+
+</LinearLayout>

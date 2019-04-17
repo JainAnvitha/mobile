@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:7:5-47
+INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:7:5-47
+INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:7:5-47
+INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:7:5-47
+INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:7:5-47
+	android:targetSdkVersion
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:7:15-44
+		INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:7:5-47
+		INJECTED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:9:5-39:19
+	android:label
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:11:9-45
+	android:allowBackup
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.secondassig.androiddatastorage.MainActivity
+ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:14:9-22:20
+	android:label
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:15:13-75
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.secondassig.androiddatastorage.SetPreferencesActivity
+ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:23:9-30:20
+	android:parentActivityName
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:26:13-89
+	android:label
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:25:13-67
+	android:name
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:24:13-85
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:27:13-29:83
+	android:value
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:29:17-80
+	android:name
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:28:17-63
+activity#com.secondassig.androiddatastorage.SQLiteActivity
+ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:31:9-38:20
+	android:parentActivityName
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:34:13-89
+	android:label
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:33:13-58
+	android:name
+		ADDED from /Users/anvitha/Desktop/AndroidDataStorage/app/src/main/AndroidManifest.xml:32:13-77

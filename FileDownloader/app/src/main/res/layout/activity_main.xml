@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#045572"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#ffff00"
+        android:text="PDF Download Activity" />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="40dp"
+        android:textColor="#ffffff"
+        android:text="PDF1 File Location: " />
+
+    <EditText
+        android:id="@+id/pdf1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:layout_below="@id/title"
+        />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffffff"
+        android:text="PDF2 File Location: " />
+
+    <EditText
+        android:id="@+id/pdf2"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:layout_toRightOf="@id/text2"
+        />
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pdf2"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffffff"
+        android:text="PDF3 File Location: " />
+
+    <EditText
+        android:id="@+id/pdf3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:layout_toRightOf="@id/text3"
+        />
+
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pdf3"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffffff"
+        android:text="PDF4 File Location: " />
+
+    <EditText
+        android:id="@+id/pdf4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:layout_toRightOf="@id/text4"
+        />
+
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pdf4"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffffff"
+        android:text="PDF5 File Location: " />
+
+    <EditText
+        android:id="@+id/pdf5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:layout_toRightOf="@id/text5"
+        />
+
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/downloadB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pdf5"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="70dp"
+        android:textStyle="bold"
+        android:onClick="startDownload"
+        android:text="Start Download" />
+
+</LinearLayout>

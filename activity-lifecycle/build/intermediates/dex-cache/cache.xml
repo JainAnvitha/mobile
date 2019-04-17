@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/anvitha/Desktop/activity-lifecycle/app/libs/android-support-v13.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecda966839090a41b29a9239d44bafc06fdadb87">
+        <dex dex="/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v13_cb24e49a65ee7f51765b67ad9929841e353bf548/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_988e4c0cc89ea2d9c8602fe1d274c5c98094ba6d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e795b0d9d2b2f88f6e719fe776ebf799bf261d8">
+        <dex dex="/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_53f32ff9fc0d8ec9520cf336d648e2dcd504f744/classes.dex" />
+    </item>
+
+</items>

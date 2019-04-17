@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thsensordriverusingasynctask.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="45dp"
+        android:text="TH Sensor Driver"
+        app:layout_constraintBottom_toTopOf="@+id/temp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="82dp"
+        android:text="Temperature:"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/humi"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="Humidity:"
+        app:layout_constraintBottom_toBottomOf="@+id/humiview"
+        app:layout_constraintEnd_toEndOf="@+id/temp"
+        app:layout_constraintTop_toTopOf="@+id/humiview" />
+
+    <TextView
+        android:id="@+id/act"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Activity:"
+        app:layout_constraintBottom_toBottomOf="@+id/actview"
+        app:layout_constraintStart_toStartOf="@+id/humi"
+        app:layout_constraintTop_toTopOf="@+id/actview" />
+
+    <TextView
+        android:id="@+id/tempview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="45dp"
+        android:text=""
+        android:hint="F"
+
+        app:layout_constraintStart_toEndOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/humiview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text=""
+        android:hint="%"
+        app:layout_constraintStart_toStartOf="@+id/tempview"
+        app:layout_constraintTop_toBottomOf="@+id/tempview" />
+
+    <TextView
+        android:id="@+id/actview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="@+id/humiview"
+        app:layout_constraintTop_toBottomOf="@+id/humiview" />
+
+    <Button
+        android:id="@+id/generatebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="9dp"
+        android:text="Generate"
+
+        app:layout_constraintStart_toStartOf="@+id/sensor"
+        app:layout_constraintTop_toBottomOf="@+id/sensor" />
+
+    <Button
+        android:id="@+id/cancelbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:text="Cancel"
+        app:layout_constraintBaseline_toBaselineOf="@+id/generatebutton"
+        app:layout_constraintEnd_toEndOf="@+id/resultview" />
+
+    <TextView
+        android:id="@+id/sensor"
+        android:layout_width="70dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="96dp"
+        android:text="Number of sensor readings:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/actview"
+        app:layout_constraintStart_toStartOf="@+id/resultview"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    4<EditText
+        android:id="@+id/sensorview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="29dp"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/cancelbutton"
+        app:layout_constraintStart_toStartOf="@+id/cancelbutton" />
+
+    <TextView
+        android:id="@+id/resultview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="8dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cancelbutton" />
+
+
+</android.support.constraint.ConstraintLayout>

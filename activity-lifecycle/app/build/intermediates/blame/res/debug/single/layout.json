@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/res/merged/debug/layout/activity_a.xml",
+        "source": "/Users/anvitha/Desktop/activity-lifecycle/app/src/main/res/layout/activity_a.xml"
+    },
+    {
+        "merged": "/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/res/merged/debug/layout/activity_dialog.xml",
+        "source": "/Users/anvitha/Desktop/activity-lifecycle/app/src/main/res/layout/activity_dialog.xml"
+    },
+    {
+        "merged": "/Users/anvitha/Desktop/activity-lifecycle/app/build/intermediates/res/merged/debug/layout/activity_b.xml",
+        "source": "/Users/anvitha/Desktop/activity-lifecycle/app/src/main/res/layout/activity_b.xml"
+    }
+]
